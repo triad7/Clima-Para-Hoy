@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('./assets/background.png') ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding-top: 50px;
+    background-color: #272829;
+}
+.weather{
+    width: 300px;
+    padding: 100px;
+    border: 1px solid grey;
+    margin:    auto;
+    text-align: center;
+    color: #61677A;
+    border-radius: .9rem;
+    font-family: 'Philosopher', sans-serif;
+    }
+    .weather h1{
+        color: #fff;
+    }
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Philosopher', sans-serif;
+}
+.search input{
+    border: none;
+    outline: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+    font-family: 'Philosopher', sans-serif;
+}
+.search button{
+    border: none;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.winfo{
+    padding-top: 20px;
+    color: #D8D9DA;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+.winfo h1{
+    
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.winfo h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+    color: #FFF6E0;
+    font-family: 'Philosopher', sans-serif;
+  
+}
+.details .col{
+    
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.humidity, .wind{
+font-size: 18px;
+padding-left: 10px;
+}
+
+.humidity p, .wind p{
+    margin: 0px;
+}
